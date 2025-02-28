@@ -12,6 +12,5 @@ public class ArraySum {
         }
 
         System.out.println("\nSum of Array Elements: "+sum);
-        System.out.println("Git added successfully");
     }
 }
