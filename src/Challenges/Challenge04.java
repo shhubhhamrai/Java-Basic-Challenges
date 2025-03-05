@@ -12,6 +12,10 @@ public class Challenge04 {
 
     // Method to calculate length of a string
     public static int calculateStringLength(String str) {
-        return str.length();
+        int length =0;
+        for (char c : str.toCharArray()){
+            length++;
+        }
+        return length;
     }
 }
